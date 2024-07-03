@@ -6,7 +6,6 @@
   "scripts": {
     "build": "remix vite:build",
     "build:storybook": "storybook build",
-    "deploy": "pnpm run build && wrangler pages deploy",
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "lint:fix": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint . --fix",
