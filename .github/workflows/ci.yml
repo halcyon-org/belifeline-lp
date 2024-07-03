@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
+      - name: Run install
+        run: |
+          pnpm install --frozen-lockfile
       - name: Run build
         run: pnpm run build
   build-storybook-test:
@@ -35,7 +38,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "pnpm"
+          cache:
+      - name: Run install
+        run: |
+          pnpm install --frozen-lockfile
       - name: Run build:storybook
         run: pnpm run build:storybook
   type-test:
@@ -52,6 +58,9 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
+      - name: Run install
+        run: |
+          pnpm install --frozen-lockfile
       - name: Run typecheck
         run: pnpm run typecheck
   lint-test:
@@ -68,6 +77,9 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
+      - name: Run install
+        run: |
+          pnpm install --frozen-lockfile
       - name: Run lint
         run: pnpm run lint
   vitest-test:
@@ -84,5 +96,8 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
+      - name: Run install
+        run: |
+          pnpm install --frozen-lockfile
       - name: Run test
         run: pnpm run test
