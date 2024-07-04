@@ -59,6 +59,5 @@ jobs:
         with:
           urls: |
             ${{ needs.preview-deploy.outputs.url }}
-          configPath: ./.github/lighthouserc.json
           uploadArtifacts: true
           temporaryPublicStorage: true
