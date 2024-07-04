@@ -1,7 +1,7 @@
 name: Preview
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment: preview
+    outputs:
+      url: ${{ steps.page.outputs.deployment-url }}
     steps:
       - uses: actions/checkout@v4
       - name: Setup pnpm
@@ -52,12 +54,13 @@ jobs:
   lighthouse:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    needs: preview-deploy
     steps:
+      - uses: actions/checkout@v4
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
             ${{ needs.preview-deploy.outputs.url }}
-          configPath: ./.github/lighthouserc.json
           uploadArtifacts: true
           temporaryPublicStorage: true
