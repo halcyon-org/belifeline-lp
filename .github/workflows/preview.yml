@@ -66,14 +66,18 @@ jobs:
           uploadArtifacts: true
           temporaryPublicStorage: true
       - uses: actions/github-script@v7
-        id: github-script
+        id: github_script
         with:
           script: |
             const script = (await import(`${process.env.GITHUB_WORKSPACE}/.github/scripts/lighthouse.js`)).default;
             const manifest = ${{ steps.lighthouse_audit.outputs.manifest }};
-            core.setOutput("comment", script(manifest));
+            return script(manifest);
+          result-encoding: string
       - name: Comment
         uses: mshick/add-pr-comment@v2.8.2
         with:
           message-id: lightouse-audit
-          message: ${{ steps.github-script.outputs.comment }}
+          message: |
+            ### Lightouse Audit
+
+            ${{ steps.github_script.outputs.result }}
