@@ -2,7 +2,7 @@
  * 
  * @param {{summary: Record<string, number>}[]} manifest 
  */
-module.exports = (manifest) => {
+function main(manifest) {
   manifest.map((result) => {
     const summary = result.summary;
     const kv = Object.entries(summary).map(([key, value]) => {
@@ -19,3 +19,4 @@ module.exports = (manifest) => {
     console.log(output);
   });
 }
+export default main;
