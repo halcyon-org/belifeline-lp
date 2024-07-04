@@ -70,9 +70,8 @@ jobs:
         with:
           script: |
             const script = require('./.github/scrips/lighthouse.js');
-            const manifest = "${{ steps.lighthouse_audit.outputs.manifest }}";
-            const json = JSON.parse(manifest);
-            code.setOutput("comment", script(json));
+            const manifest = ${{ steps.lighthouse_audit.outputs.manifest }};
+            code.setOutput("comment", script(manifest));
       - name: Comment
         uses: mshick/add-pr-comment@v2.8.2
         with:

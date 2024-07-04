@@ -1,6 +1,6 @@
 /**
  * 
- * @param {{url: string, summary: Record<string, number>}[]} manifest 
+ * @param {{summary: Record<string, number>}[]} manifest 
  */
 module.exports = (manifest) => {
   manifest.map((result) => {
