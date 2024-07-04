@@ -69,7 +69,7 @@ jobs:
         id: github-script
         with:
           script: |
-            const script = require('./.github/scrips/lighthouse.js');
+            const script = require('./.github/scripts/lighthouse.js');
             const manifest = ${{ steps.lighthouse_audit.outputs.manifest }};
             code.setOutput("comment", script(manifest));
       - name: Comment
