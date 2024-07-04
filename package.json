@@ -28,7 +28,6 @@
     "the-new-css-reset": "^1.11.2"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^1.6.0",
     "@cloudflare/workers-types": "^4.20240620.0",
     "@remix-run/dev": "^2.10.0",
     "@shiron-dev/eslint-config": "^1.5.5",
