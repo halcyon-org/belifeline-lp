@@ -3,7 +3,7 @@ import * as styles from "./styles.css";
 import classNames from "classnames";
 
 type Props = {
-  href: string;
+  href?: string;
   children: ReactNode;
   className?: string;
 };
