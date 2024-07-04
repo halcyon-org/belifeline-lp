@@ -71,7 +71,7 @@ jobs:
           script: |
             const script = (await import(`${process.env.GITHUB_WORKSPACE}/.github/scripts/lighthouse.js`)).default;
             const manifest = ${{ steps.lighthouse_audit.outputs.manifest }};
-            code.setOutput("comment", script(manifest));
+            core.setOutput("comment", script(manifest));
       - name: Comment
         uses: mshick/add-pr-comment@v2.8.2
         with:
