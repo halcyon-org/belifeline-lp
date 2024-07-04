@@ -8,7 +8,7 @@ import {
 import { ReactNode } from "react";
 
 import "@/styles/globals.css";
-import { LinksFunction } from "@remix-run/cloudflare";
+import { LinksFunction, MetaFunction } from "@remix-run/cloudflare";
 
 export function Layout({ children }: { children: React.ReactNode }): ReactNode {
   return (
@@ -34,11 +34,7 @@ export default function App(): ReactNode {
 
 export const links: LinksFunction = () => {
   return [
-    {
-      rel: "icon",
-      href: "/favicon.svg",
-      type: "image/svg+xml",
-    },
+    { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     {
       rel: "preconnect",
@@ -49,6 +45,18 @@ export const links: LinksFunction = () => {
       rel: "stylesheet",
       href: "https://fonts.googleapis.com/css2?family=Roboto&display=swap",
     },
-    { page: "/users/123" },
+  ];
+};
+
+export const meta: MetaFunction = () => {
+  return [
+    { charSet: "utf-8" },
+    { title: "BeLifeline LP" },
+    { name: "description", content: "BeLifeline landing page" },
+    { property: "og:title", content: "BeLifeline LP" },
+    { name: "og:description", content: "BeLifeline landing page" },
+    { name: "og:url", content: "https://belifeline-lp.pages.dev" },
+    { name: "og:image", content: "/ogp.png" },
+    { name: "og:type", content: "website" },
   ];
 };
