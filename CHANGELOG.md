@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v0.2.0...belifeline-lp-v0.2.1) (2024-07-04)
+
+
+### Bug Fixes
+
+* releaser ([#17](https://github.com/halcyon-org/belifeline-lp/issues/17)) ([9236e99](https://github.com/halcyon-org/belifeline-lp/commit/9236e99b139948b53a409c4b803087bd74ba3a05))
+
 ## [0.2.0](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v0.1.0...belifeline-lp-v0.2.0) (2024-07-04)
 
 
