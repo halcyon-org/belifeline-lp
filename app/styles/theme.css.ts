@@ -1,21 +1,37 @@
-import { createTheme, createThemeContract } from "@vanilla-extract/css";
+import { createGlobalTheme, createThemeContract } from "@vanilla-extract/css";
 
 export const vars = createThemeContract({
   color: {
     background: "",
     text: "",
+    highlight: "",
+    headerBottom: "",
+    footerBg: "",
+    btnBg: "",
+    bgLine: "",
+    bgMask: "",
   },
-});
-export const light = createTheme(vars, {
-  color: {
-    background: "#ffffff",
-    text: "#000000",
+  typography: {
+    fontFamily: {
+      roboto: "",
+    },
   },
 });
 
-export const dark = createTheme(vars, {
+createGlobalTheme(":root", vars, {
   color: {
-    background: "#000000",
-    text: "#ffffff",
+    background: "#FFFFFF",
+    text: "#3C4063",
+    highlight: "#8467D7",
+    headerBottom: "#EEE9F9",
+    footerBg: "#9BA2A8",
+    btnBg: "#C4CED4",
+    bgLine: "#8467D7",
+    bgMask: "#F9F7FF",
+  },
+  typography: {
+    fontFamily: {
+      roboto: "Roboto, sans-serif",
+    },
   },
 });
