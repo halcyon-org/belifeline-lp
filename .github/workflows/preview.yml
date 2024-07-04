@@ -54,6 +54,7 @@ jobs:
   lighthouse:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    needs: preview-deploy
     steps:
       - uses: actions/checkout@v4
       - name: Audit URLs using Lighthouse
