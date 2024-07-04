@@ -69,7 +69,7 @@ jobs:
         id: github-script
         with:
           script: |
-            const script = (await import('./.github/scripts/lighthouse.js')).default;
+            const script = (await import(`${process.env.GITHUB_WORKSPACE}/.github/scripts/lighthouse.js`)).default;
             const manifest = ${{ steps.lighthouse_audit.outputs.manifest }};
             code.setOutput("comment", script(manifest));
       - name: Comment
