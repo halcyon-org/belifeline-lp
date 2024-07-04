@@ -56,7 +56,20 @@ export const meta: MetaFunction = () => {
     { name: "og:title", content: "BeLifeline LP" },
     { name: "og:description", content: "BeLifeline landing page" },
     { name: "og:url", content: "https://belifeline-lp.pages.dev" },
-    { name: "og:image", content: "/ogp.png" },
+    { name: "og:image", content: "https://belifeline-lp.pages.dev/ogp.png" },
+    {
+      property: "og:image:url",
+      content: "https://belifeline-lp.pages.dev/ogp.png",
+    },
+    { property: "og:image:alt", content: "BeLifeline LP" },
     { name: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "BeLifeline LP" },
+    { name: "twitter:description", content: "BeLifeline landing page" },
+    {
+      name: "twitter:image",
+      content: "https://belifeline-lp.pages.dev/ogp.png",
+    },
+    { name: "twitter:image:alt", content: "BeLifeline LP" },
   ];
 };
