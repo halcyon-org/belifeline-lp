@@ -22,7 +22,7 @@ export const menu = style({
 });
 
 export const menuItem = style({
-  fontSize: "32px",
+  fontSize: "24px",
   fontStyle: "normal",
   fontWeight: "400",
   lineHeight: "normal",
