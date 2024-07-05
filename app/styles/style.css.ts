@@ -7,6 +7,6 @@ globalStyle("html, body", {
   margin: 0,
   padding: 0,
   width: "1440px",
-  maxWidth: "100%",
-  minWidth: "100%",
+  maxWidth: "1440px",
+  minWidth: "1440px",
 });
