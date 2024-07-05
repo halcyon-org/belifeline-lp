@@ -5,7 +5,7 @@ export function Header(): ReactNode {
   return (
     <header className={styles.header}>
       <div className={styles.headerMenu}>
-        <span className={styles.logo} />
+        <a href="/" className={styles.logo} />
         <nav>
           <ul className={styles.menu}>
             <li>
