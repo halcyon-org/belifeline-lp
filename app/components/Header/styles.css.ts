@@ -49,4 +49,6 @@ export const menuItem = style({
   fontWeight: "400",
   lineHeight: "normal",
   textDecorationLine: "underline",
+  color: vars.color.text,
+  textDecoration: "none",
 });

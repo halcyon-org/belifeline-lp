@@ -9,13 +9,20 @@ export function Header(): ReactNode {
         <nav>
           <ul className={styles.menu}>
             <li>
-              <a className={styles.menuItem}>About</a>
+              <a
+                className={styles.menuItem}
+                href="https://halcyon-org.github.io/belifeline-schema"
+              >
+                Schema
+              </a>
             </li>
             <li>
-              <a className={styles.menuItem}>Playground</a>
-            </li>
-            <li>
-              <a className={styles.menuItem}>Login</a>
+              <a
+                className={styles.menuItem}
+                href="https://github.com/halcyon-org/belifeline-architecture"
+              >
+                Architecture
+              </a>
             </li>
           </ul>
         </nav>
