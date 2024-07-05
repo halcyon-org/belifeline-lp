@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v1.0.0...belifeline-lp-v1.1.0) (2024-07-05)
+
+
+### Features
+
+* **header:** Add links to each page ([#45](https://github.com/halcyon-org/belifeline-lp/issues/45)) ([051ef58](https://github.com/halcyon-org/belifeline-lp/commit/051ef58ac67e3bb9e22126e69ac7907d7e399fe1))
+
 ## [1.0.0](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v0.2.2...belifeline-lp-v1.0.0) (2024-07-05)
 
 
