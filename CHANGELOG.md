@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.0.0](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v0.2.2...belifeline-lp-v1.0.0) (2024-07-05)
+
+
+### Features
+
+* Impl button ([#29](https://github.com/halcyon-org/belifeline-lp/issues/29)) ([1123e1e](https://github.com/halcyon-org/belifeline-lp/commit/1123e1edaabf30f050817fb9acfaf1f776805608))
+* Impl footer ([#39](https://github.com/halcyon-org/belifeline-lp/issues/39)) ([d262af6](https://github.com/halcyon-org/belifeline-lp/commit/d262af68e4d8bcb0ff54c3b46c598cfe3bd57ba7))
+* Impl header ([#24](https://github.com/halcyon-org/belifeline-lp/issues/24)) ([d2f67d2](https://github.com/halcyon-org/belifeline-lp/commit/d2f67d2b10047c38b7778d4b575eafb765082afa))
+* Impl hero ([#34](https://github.com/halcyon-org/belifeline-lp/issues/34)) ([d25e66c](https://github.com/halcyon-org/belifeline-lp/commit/d25e66cf493b50e8dd236ce4330eb7a99f36e17e))
+* Impl page1 ([#38](https://github.com/halcyon-org/belifeline-lp/issues/38)) ([4b6215c](https://github.com/halcyon-org/belifeline-lp/commit/4b6215cfb54eca703b3a3510901bd4e80dcd6c3e))
+* **page:** Add second page ([#41](https://github.com/halcyon-org/belifeline-lp/issues/41)) ([08fbe91](https://github.com/halcyon-org/belifeline-lp/commit/08fbe91d3428c99b5dae9c02776a2a28b0f6ac0f))
+* **page:** Add third page ([#42](https://github.com/halcyon-org/belifeline-lp/issues/42)) ([7169ce5](https://github.com/halcyon-org/belifeline-lp/commit/7169ce53c6785fa387d03342776e644b6980eff1))
+
+
+### Miscellaneous Chores
+
+* release 1.0.0 ([#44](https://github.com/halcyon-org/belifeline-lp/issues/44)) ([2ac23bb](https://github.com/halcyon-org/belifeline-lp/commit/2ac23bb374bd17c15db3b53d0204c1e08510998b))
+
 ## [0.2.2](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v0.2.1...belifeline-lp-v0.2.2) (2024-07-04)
 
 
