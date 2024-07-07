@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@remix-run/cloudflare':
-        specifier: ^2.10.1
+        specifier: ^2.10.2
         version: 2.10.2(@cloudflare/workers-types@4.20240620.0)(typescript@5.5.3)
       '@remix-run/cloudflare-pages':
-        specifier: ^2.10.1
+        specifier: ^2.10.2
         version: 2.10.2(@cloudflare/workers-types@4.20240620.0)(typescript@5.5.3)
       '@remix-run/react':
-        specifier: ^2.10.1
+        specifier: ^2.10.2
         version: 2.10.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
       isbot:
         specifier: ^5.1.11
@@ -34,7 +34,7 @@ importers:
         specifier: ^4.20240620.0
         version: 4.20240620.0
       '@remix-run/dev':
-        specifier: ^2.10.1
+        specifier: ^2.10.2
         version: 2.10.2(@remix-run/react@2.10.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@types/node@20.14.9)(typescript@5.5.3)(vite@5.3.3(@types/node@20.14.9))(wrangler@3.63.0(@cloudflare/workers-types@4.20240620.0))
       '@shiron-dev/eslint-config':
         specifier: ^1.5.5
