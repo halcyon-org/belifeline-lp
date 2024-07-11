@@ -18,7 +18,7 @@ export function Footer(): ReactNode {
             </li>
           </ul>
           <ul>
-            <a className={styles.text}>Halcyon</a>
+            <a className={styles.orgText}>Halcyon</a>
           </ul>
     </footer>
   );
