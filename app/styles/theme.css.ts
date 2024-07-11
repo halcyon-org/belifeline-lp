@@ -4,6 +4,7 @@ export const vars = createThemeContract({
   color: {
     background: "",
     text: "",
+    lightText: "",
     highlight: "",
     headerBottom: "",
     footerBg: "",
@@ -22,6 +23,7 @@ createGlobalTheme(":root", vars, {
   color: {
     background: "#FFFFFF",
     text: "#3C4063",
+    lightText: "#F8F9FA",
     highlight: "#8467D7",
     headerBottom: "#EEE9F9",
     footerBg: "#9BA2A8",

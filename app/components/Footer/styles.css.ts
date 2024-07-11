@@ -10,6 +10,7 @@ export const footer = style({
   alignSelf: "stretch",
   position: "relative",
   background: vars.color.footerBg,
+  color: vars.color.lightText,
 });
 
 export const menuContainer = style({
@@ -19,7 +20,6 @@ export const menuContainer = style({
 
 export const menu = style({
   display: "inline-flex",
-  padding: "0rem 1.25rem",
   margin: 0,
   justifyContent: "center",
   alignItems: "center",
@@ -35,7 +35,6 @@ export const menuItem = style({
   lineHeight: "normal",
   display: "inline-block",
   position: "relative",
-  paddingRight: "0.625rem", 
   textAlign: "center",
   textDecoration: "none",
 });
