@@ -40,7 +40,7 @@ export const menuItem = style({
 });
 
 
-export const Text = style({
+export const text = style({
   position: "absolute",
   right: "4rem",
   bottom: "0.95rem",
@@ -52,7 +52,7 @@ export const Text = style({
   marginLeft: "0rem",
 });
 
-export const Divider = style({
+export const divider = style({
   display: "inline-block",
   height: "50%",
   borderLeft: "1px solid",
