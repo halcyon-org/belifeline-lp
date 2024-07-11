@@ -40,7 +40,7 @@ export const menuItem = style({
 });
 
 
-export const text = style({
+export const orgText = style({
   position: "absolute",
   right: "4rem",
   bottom: "0.95rem",
