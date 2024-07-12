@@ -1,27 +1,46 @@
+
 import { vars } from "@/styles/theme.css";
-import { style } from "@vanilla-extract/css";
+import { style, keyframes } from "@vanilla-extract/css";
+
+const scrollKeyframes = keyframes({
+  "0%": { 
+    opacity: 0,
+  },
+  "40%": {
+    opacity: 1,
+  },
+  "80%": {
+    transform: " translate(0rem, 1.5625rem)",
+    opacity: 0,
+  },
+  "100%": {
+    opacity: 0,
+  },
+});
 
 export const hero = style({
+  padding: "3.75rem 9.375rem",
+  background: "url(/images/hero.svg) no-repeat",
+});
+
+export const contents = style({
   display: "flex",
-  padding: "60px 150px",
   justifyContent: "space-between",
   alignItems: "center",
   flex: "1 0 0",
   alignSelf: "stretch",
-  background: "url(/images/hero.svg) no-repeat",
 });
 
 export const textBox = style({
   display: "flex",
   flexDirection: "column",
-  alignItems: "flex-start",
-  gap: "20px",
+  gap: "1.25rem",
 });
 
 export const title = style({
   color: vars.color.text,
   fontFamily: vars.typography.fontFamily.roboto,
-  fontSize: "64px",
+  fontSize: "4rem",
   fontStyle: "normal",
   fontWeight: "700",
   lineHeight: "normal",
@@ -29,10 +48,10 @@ export const title = style({
 
 export const text = style({
   alignSelf: "stretch",
-  width: "760px",
+  width: "47.5rem",
   color: vars.color.text,
   fontFamily: vars.typography.fontFamily.roboto,
-  fontSize: "24px",
+  fontSize: "1.5rem",
   fontStyle: "normal",
   lineHeight: "normal",
 });
@@ -45,13 +64,46 @@ export const buttonBox = style({
 });
 
 export const button = style({
-  fontSize: "32px",
+  fontSize: "2rem",
 });
 
 export const image = style({
   display: "flex",
-  height: "581px",
+  height: "36.313rem",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
 });
+
+export const scrollText = style({
+  rotate: "90deg",
+  fontFamily:vars.typography.fontFamily.roboto,
+  fontSize: "1.5rem",
+  fontStyle: "normal",
+  fontWeight: 400,
+  lineHeight: "normal",
+  letterSpacing: "0.225rem",
+  textAlign: "left",
+  verticalAlign: "bottom",
+  height: "1rem",
+});
+
+export const scrollBox = style({
+  display: "flex",
+  alignItems: "center",
+  position: "relative",
+  right: "-8rem",
+  justifyContent: "flex-end",
+  width: "100%",
+});
+
+export const scrollArrow = style({
+  animation: `${scrollKeyframes} 3.5s infinite`,
+  content: "url('/images/scroll_arrow.svg')",
+  width: "1rem",
+  alignSelf: "stretch",
+  strokeWidth: "0.125rem",
+  stroke: vars.color.text,
+});
+
+

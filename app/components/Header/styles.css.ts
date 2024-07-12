@@ -6,7 +6,7 @@ export const header = style({
     "&::after": {
       display: "block",
       content: "",
-      height: "10px",
+      height: "0.625rem",
       width: "100%",
       background: `linear-gradient(to bottom, ${vars.color.headerBottom}, ${vars.color.background})`,
     },
@@ -24,12 +24,12 @@ export const headerMenu = style({
 export const logo = style({
   content: "url('/LogoH.svg')",
   display: "flex",
-  padding: "7.54px 6.11px 12.2px 6.125px",
+  padding: "0.471rem 0.382rem 0.763rem 0.383rem",
   justifyContent: "center",
   alignItems: "flex-end",
-  gap: "5.22px",
-  width: "249.64px",
-  height: "40.26px",
+  gap: "0.326rem",
+  width: "15.603rem",
+  height: "2.516rem",
   flexShrink: 0,
 });
 
@@ -44,7 +44,7 @@ export const menu = style({
 });
 
 export const menuItem = style({
-  fontSize: "24px",
+  fontSize: "1.5rem",
   fontStyle: "normal",
   fontWeight: "400",
   lineHeight: "normal",
