@@ -7,7 +7,7 @@ export const linkButton = style({
   alignItems: "flex-start",
   gap: "0.625rem",
   borderRadius: "0.5rem",
-  border: `0.0625rem solid ${vars.color.text}`,
+  border: `1px solid ${vars.color.text}`,
   background: vars.color.background,
   textDecoration: "none",
   color: vars.color.text,

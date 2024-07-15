@@ -1,8 +1,8 @@
 import { style } from "@vanilla-extract/css";
 
 export const page1 = style({
-  width: "90rem",
-  height: "67.5rem",
+  width: "1440px",
+  height: "1080px",
   display: "flex",
   // paddingTop: "100px",
   flexDirection: "column",

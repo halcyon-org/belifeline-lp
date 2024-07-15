@@ -3,8 +3,8 @@ import { style } from "@vanilla-extract/css";
 
 export const page3 = style({
   display: "flex",
-  width: "90rem",
-  height: "67.5rem",
+  width: "1440px",
+  height: "1080px",
   padding: "0rem 0rem",
   flexDirection: "column",
   justifyContent: "center",

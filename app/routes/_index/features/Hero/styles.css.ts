@@ -1,22 +1,6 @@
 
 import { vars } from "@/styles/theme.css";
-import { style, keyframes } from "@vanilla-extract/css";
-
-const scrollKeyframes = keyframes({
-  "0%": { 
-    opacity: 0,
-  },
-  "40%": {
-    opacity: 1,
-  },
-  "80%": {
-    transform: " translate(0rem, 1.5625rem)",
-    opacity: 0,
-  },
-  "100%": {
-    opacity: 0,
-  },
-});
+import { style } from "@vanilla-extract/css";
 
 export const hero = style({
   padding: "3.75rem 9.375rem",
@@ -98,7 +82,6 @@ export const scrollBox = style({
 });
 
 export const scrollArrow = style({
-  animation: `${scrollKeyframes} 3.5s infinite`,
   content: "url('/images/scroll_arrow.svg')",
   width: "1rem",
   alignSelf: "stretch",

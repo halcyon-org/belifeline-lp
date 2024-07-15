@@ -3,8 +3,8 @@ import { style } from "@vanilla-extract/css";
 
 export const page2 = style({
   display: "flex",
-  width: "90rem",
-  height: "67.5rem",
+  width: "1440px",
+  height: "1080px",
   paddingTop: "6.25rem",
   justifyContent: "space-between",
   alignItems: "center",
@@ -12,8 +12,8 @@ export const page2 = style({
 });
 
 export const image = style({
-  width: "36.063rem",
-  height: "40.688rem",
+  width: "577px",
+  height: "651px",
   paddingLeft: "4.375rem",
 });
 

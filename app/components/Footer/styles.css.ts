@@ -55,7 +55,7 @@ export const orgText = style({
 export const divider = style({
   display: "inline-block",
   height: "50%",
-  borderLeft: "0.0625rem solid",
+  borderLeft: "1px solid",
   margin: "0rem",
   verticalAlign: "midddle",
 });
