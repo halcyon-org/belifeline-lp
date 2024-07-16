@@ -22,7 +22,7 @@ export function Hero(): ReactNode {
         <img className={styles.image} src="/images/map.webp" alt="sample map" />
       </div>
       <div className={styles.scrollBox}>
-        <div className={styles.scrollArrow} />
+        <span className={styles.scrollArrow} />
         <span className={styles.scrollText}>scroll</span>
       </div>
     </div>

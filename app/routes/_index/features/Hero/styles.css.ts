@@ -3,12 +3,13 @@ import { vars } from "@/styles/theme.css";
 import { style } from "@vanilla-extract/css";
 
 export const hero = style({
-  padding: "3.75rem 9.375rem",
+  
   background: "url(/images/hero.svg) no-repeat",
 });
 
 export const contents = style({
   display: "flex",
+  padding: "3.75rem 9.375rem",
   justifyContent: "space-between",
   alignItems: "center",
   flex: "1 0 0",
@@ -60,6 +61,7 @@ export const image = style({
 });
 
 export const scrollText = style({
+  display: "inline-block",
   rotate: "90deg",
   fontFamily:vars.typography.fontFamily.roboto,
   fontSize: "1.5rem",
@@ -68,24 +70,29 @@ export const scrollText = style({
   lineHeight: "normal",
   letterSpacing: "0.225rem",
   textAlign: "left",
-  verticalAlign: "bottom",
-  height: "1rem",
+
+  transformOrigin: "left bottom",
+  verticalAlign: "top",
+  width:"auto",
+  position:"relative",
+  top:"-1.7rem",
 });
 
 export const scrollBox = style({
   display: "flex",
-  alignItems: "center",
-  position: "relative",
-  right: "-8rem",
+  position:"relative",
+  bottom:"3.5rem",
+  alignItems: "flex-start",
+  gap: 0,
   justifyContent: "flex-end",
   width: "100%",
 });
 
 export const scrollArrow = style({
   content: "url('/images/scroll_arrow.svg')",
-  width: "1rem",
-  alignSelf: "stretch",
-  strokeWidth: "0.125rem",
+  width: "12px",
+  
+  strokeWidth: "2px",
   stroke: vars.color.text,
 });
 
