@@ -24,12 +24,12 @@ export const headerMenu = style({
 export const logo = style({
   content: "url('/LogoH.svg')",
   display: "flex",
-  padding: "7.54px 6.11px 12.2px 6.125px",
+  padding: "0.47rem 0.38rem 0.76rem 0.38rem",
   justifyContent: "center",
   alignItems: "flex-end",
-  gap: "5.22px",
-  width: "249.64px",
-  height: "40.26px",
+  gap: "0.33rem",
+  width: "15.6rem",
+  height: "2.52rem",
   flexShrink: 0,
 });
 
@@ -44,7 +44,7 @@ export const menu = style({
 });
 
 export const menuItem = style({
-  fontSize: "24px",
+  fontSize: "1.5rem",
   fontStyle: "normal",
   fontWeight: "400",
   lineHeight: "normal",

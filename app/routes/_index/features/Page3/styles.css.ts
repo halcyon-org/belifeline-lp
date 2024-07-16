@@ -5,7 +5,7 @@ export const page3 = style({
   display: "flex",
   width: "1440px",
   height: "1080px",
-  padding: "0px 0px",
+  padding: "0rem 0rem",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
@@ -13,8 +13,8 @@ export const page3 = style({
 });
 
 export const textBox = style({
-  width: "1340px",
-  height: "800px",
+  width: "83.75rem",
+  height: "50rem",
   flexShrink: "0",
 });
 
@@ -22,7 +22,7 @@ export const title = style({
   color: "var(---text, #3C4063)",
   textAlign: "center",
   fontFamily: vars.typography.fontFamily.roboto,
-  fontSize: "64px",
+  fontSize: "4rem",
   fontStyle: "normal",
   fontWeight: "400",
   lineHeight: "normal",
@@ -30,18 +30,18 @@ export const title = style({
 
 export const feats = style({
   display: "flex",
-  width: "1340px",
-  padding: "150px 0px",
+  width: "83.75rem",
+  padding: "9.375rem 0rem",
   justifyContent: "center",
   alignItems: "flex-start",
-  gap: "20px",
+  gap: "1.25rem",
 });
 
 export const feat = style({
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  gap: "20px",
+  gap: "1.25rem",
   flex: "1 0 0",
 });
 
@@ -49,7 +49,7 @@ export const featTitle = style({
   color: "var(---text, #3C4063)",
   textAlign: "center",
   fontFamily: vars.typography.fontFamily.roboto,
-  fontSize: "48px",
+  fontSize: "3rem",
   fontStyle: "normal",
   fontWeight: "400",
   lineHeight: "normal",
@@ -61,7 +61,7 @@ export const featDesc = style({
   color: "var(---text, #3C4063)",
   textAlign: "center",
   fontFamily: vars.typography.fontFamily.roboto,
-  fontSize: "24px",
+  fontSize: "1.5rem",
   fontStyle: "normal",
   fontWeight: "400",
   lineHeight: "normal",
@@ -70,15 +70,15 @@ export const featDesc = style({
 
 export const buttonBox = style({
   display: "flex",
-  width: "1340px",
-  padding: "50px 50px",
+  width: "83.75rem",
+  padding: "3.125rem 3.125rem",
   flexDirection: "column",
   justifyContent: "flex-end",
   alignItems: "flex-end",
-  gap: "10px",
-  paddingRight: "100px",
+  gap: "0.625rem",
+  paddingRight: "6.25rem",
 });
 
 export const button = style({
-  fontSize: "32px",
+  fontSize: "2rem",
 });
