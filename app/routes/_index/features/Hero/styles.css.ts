@@ -9,7 +9,7 @@ export const hero = style({
 
 export const contents = style({
   display: "flex",
-  padding: "3.75rem 9.375rem",
+  padding: "3.75rem 9.375rem 0rem 9.375rem",
   justifyContent: "space-between",
   alignItems: "center",
   flex: "1 0 0",
@@ -60,38 +60,20 @@ export const image = style({
   alignItems: "center",
 });
 
-export const scrollText = style({
-  display: "inline-block",
-  rotate: "90deg",
-  fontFamily:vars.typography.fontFamily.roboto,
-  fontSize: "1.5rem",
-  fontStyle: "normal",
-  fontWeight: 400,
-  lineHeight: "normal",
-  letterSpacing: "0.225rem",
-  textAlign: "left",
-
-  transformOrigin: "left bottom",
-  verticalAlign: "top",
-  width:"auto",
-  position:"relative",
-  top:"-1.7rem",
-});
-
 export const scrollBox = style({
   display: "flex",
-  position:"relative",
-  bottom:"3.5rem",
   alignItems: "flex-start",
   gap: 0,
   justifyContent: "flex-end",
   width: "100%",
+  margin:"0rem 5rem 3rem 0rem",
 });
 
-export const scrollArrow = style({
-  content: "url('/images/scroll_arrow.svg')",
-  width: "12px",
-  
+
+export const scroll = style({
+  content: "url('/images/scroll.svg')",
+  padding:"0rem 3rem 0rem 0rem",
+  width: "55px",
   strokeWidth: "2px",
   stroke: vars.color.text,
 });
