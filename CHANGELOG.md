@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v1.1.0...belifeline-lp-v1.2.0) (2024-07-16)
+
+
+### Features
+
+* add scrollable sign and from px to rem ([#59](https://github.com/halcyon-org/belifeline-lp/issues/59)) ([03cfa1a](https://github.com/halcyon-org/belifeline-lp/commit/03cfa1ad4175505a0c365d135a6337c6f588419b))
+* update footer ([#55](https://github.com/halcyon-org/belifeline-lp/issues/55)) ([41a3a6e](https://github.com/halcyon-org/belifeline-lp/commit/41a3a6e401a58709b94a95719574f50fe945f586))
+
 ## [1.1.0](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v1.0.0...belifeline-lp-v1.1.0) (2024-07-05)
 
 
