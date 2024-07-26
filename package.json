@@ -28,7 +28,7 @@
     "the-new-css-reset": "^1.11.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240718.0",
+    "@cloudflare/workers-types": "^4.20240722.0",
     "@remix-run/dev": "^2.10.3",
     "@shiron-dev/eslint-config": "^1.5.5",
     "@storybook/addon-essentials": "^8.2.5",
