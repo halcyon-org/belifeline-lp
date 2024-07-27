@@ -54,7 +54,7 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-storybook": "^0.8.0",
-    "postcss": "^8.4.39",
+    "postcss": "^8.4.40",
     "storybook": "^8.2.6",
     "typescript": "^5.5.4",
     "vite": "^5.3.4",
