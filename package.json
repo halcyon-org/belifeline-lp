@@ -30,7 +30,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240806.0",
     "@remix-run/dev": "^2.11.1",
-    "@shiron-dev/eslint-config": "^1.6.0",
+    "@shiron-dev/eslint-config": "^1.7.0",
     "@storybook/addon-essentials": "^8.2.8",
     "@storybook/addon-interactions": "^8.2.8",
     "@storybook/addon-links": "^8.2.8",

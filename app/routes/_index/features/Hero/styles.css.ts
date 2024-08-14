@@ -66,13 +66,13 @@ export const scrollBox = style({
   gap: 0,
   justifyContent: "flex-end",
   width: "100%",
-  margin:"0rem 5rem 3rem 0rem",
+  margin: "0rem 5rem 3rem 0rem",
 });
 
 
 export const scroll = style({
   content: "url('/images/scroll.svg')",
-  padding:"0rem 3rem 0rem 0rem",
+  padding: "0rem 3rem 0rem 0rem",
   width: "55px",
   strokeWidth: "2px",
   stroke: vars.color.text,
