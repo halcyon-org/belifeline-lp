@@ -1,8 +1,5 @@
 import { vars } from "@/styles/theme.css";
 import { style, keyframes } from "@vanilla-extract/css";
-import { gsap } from "gsap";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-gsap.registerPlugin(MotionPathPlugin);
 
 export const loading = style({
   width: "1440px",
@@ -35,7 +32,7 @@ const pathAnimation = keyframes({
 });
 
 export const icon = style({
-  content: "url(images/animation-logo-v2animated.svg)",
+  content: "url(images/logo.svg)",
   justifyContent: "start",
   backgroundSize: "contain",
   display: "inline-block",

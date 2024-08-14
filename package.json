@@ -19,6 +19,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "@remix-run/cloudflare": "^2.11.1",
     "@remix-run/cloudflare-pages": "^2.11.1",
     "@remix-run/react": "^2.11.1",

@@ -5,7 +5,10 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
+
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
 
 import "@/styles/globals.css";
 import { LinksFunction, MetaFunction } from "@remix-run/cloudflare";
@@ -29,6 +32,10 @@ export function Layout({ children }: { children: React.ReactNode }): ReactNode {
 }
 
 export default function App(): ReactNode {
+  useEffect(() => {
+    gsap.registerPlugin(useGSAP);
+  }, []);
+
   return <Outlet />;
 }
 
