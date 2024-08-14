@@ -5,12 +5,12 @@ import { Header } from "./Header";
 type T = typeof Header;
 
 const meta: Meta = {
-	title: "Header",
-	component: Header,
-	parameters: {
-		layout: "fullscreen",
-	},
-	tags: ["autodocs"],
+  title: "Header",
+  component: Header,
+  parameters: {
+    layout: "fullscreen",
+  },
+  tags: ["autodocs"],
 } satisfies Meta<T>;
 
 type Story = StoryObj<T>;
