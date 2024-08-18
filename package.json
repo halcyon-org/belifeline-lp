@@ -19,9 +19,9 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@remix-run/cloudflare": "^2.11.1",
-    "@remix-run/cloudflare-pages": "^2.11.1",
-    "@remix-run/react": "^2.11.1",
+    "@remix-run/cloudflare": "^2.11.2",
+    "@remix-run/cloudflare-pages": "^2.11.2",
+    "@remix-run/react": "^2.11.2",
     "isbot": "^5.1.16",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240806.0",
-    "@remix-run/dev": "^2.11.1",
+    "@remix-run/dev": "^2.11.2",
     "@shiron-dev/eslint-config": "^1.7.0",
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-interactions": "^8.2.9",
