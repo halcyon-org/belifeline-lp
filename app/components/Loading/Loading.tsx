@@ -24,6 +24,7 @@ export function Loading(): ReactNode {
         strokeDashoffset: 413,
       },
       {
+
         classNames: [".path-1-e"],
         strokeDasharray: "474 476",
         strokeDashoffset: 475,
@@ -98,6 +99,7 @@ export function Loading(): ReactNode {
         strokeDasharray: "199 201",
         strokeDashoffset: 200,
       },
+
     ];
 
     anim.forEach((a) => {
