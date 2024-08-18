@@ -1,16 +1,15 @@
-import { Header } from "@/components/Header";
 import { ReactNode } from "react";
+import { Header } from "@/components/Header";
 import { Hero } from "./features/Hero/Hero";
 import { Page1 } from "./features/Page1/Page1";
 import { Page2 } from "./features/Page2/Page2";
 import { Page3 } from "./features/Page3/Page3";
 import { Footer } from "@/components/Footer";
-import { Loading } from "./features/Loading";
 
-export default function Page(): ReactNode {
+export default function Page() : ReactNode{
+
   return (
     <>
-      <Loading />
       <Header />
       <main>
         <Hero />
@@ -21,4 +20,4 @@ export default function Page(): ReactNode {
       <Footer />
     </>
   );
-}
+};

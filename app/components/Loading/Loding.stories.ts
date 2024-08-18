@@ -5,12 +5,12 @@ import { Loading } from "./Loading";
 type T = typeof Loading;
 
 const meta: Meta = {
-	title: "Loading",
-	component: Loading,
-	parameters: {
-		layout: "fullscreen",
-	},
-	tags: ["autodocs"],
+  title: "Loading",
+  component: Loading,
+  parameters: {
+    layout: "centered",
+  },
+  tags: ["autodocs"],
 } satisfies Meta<T>;
 
 type Story = StoryObj<T>;
