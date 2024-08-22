@@ -37,8 +37,6 @@ export const icon = style({
   backgroundSize: "contain",
   display: "inline-block",
 });
-<<<<<<< Updated upstream
-=======
 
 const fadeOut = keyframes({
   "0%": {opacity: 1 },
@@ -48,4 +46,3 @@ const fadeOut = keyframes({
 export const loadingFadeOut = style({
   animation: `${fadeOut} 1s ease-out`,
 });
->>>>>>> Stashed changes
