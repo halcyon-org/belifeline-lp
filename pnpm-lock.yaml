@@ -109,7 +109,7 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(eslint@8.57.0)(typescript@5.5.4)
       postcss:
-        specifier: ^8.4.43
+        specifier: ^8.4.44
         version: 8.4.44
       storybook:
         specifier: ^8.2.9
