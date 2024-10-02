@@ -12,21 +12,19 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       '@remix-run/cloudflare':
-        specifier: ^2.12.1
+        specifier: ^2.11.1
         version: 2.12.1(@cloudflare/workers-types@4.20240925.0)(typescript@5.6.2)
       '@remix-run/cloudflare-pages':
-        specifier: ^2.12.1
+        specifier: ^2.11.1
         version: 2.12.1(@cloudflare/workers-types@4.20240925.0)(typescript@5.6.2)
       '@remix-run/react':
-
         specifier: ^2.11.1
-        version: 2.11.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
+        version: 2.12.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.2)
       gsap:
         specifier: ^3.12.5
         version: 3.12.5
-
       isbot:
-        specifier: ^5.1.17
+        specifier: ^5.1.14
         version: 5.1.17
       react:
         specifier: ^18.3.1
@@ -801,9 +799,8 @@ packages:
   '@gsap/react@2.1.1':
     resolution: {integrity: sha512-apGPRrmpqxvl1T6Io1KgT8tFU+IuACI6z4zmT7t8+PASserJeLVRFJdSNUFA2Xb/eVkZI1noE8LIrY/w/oJECw==}
 
-  '@humanwhocodes/config-array@0.11.14':
-    resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
-
+  '@humanwhocodes/config-array@0.13.0':
+    resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
     engines: {node: '>=10.10.0'}
     deprecated: Use @eslint/config-array instead
 
@@ -5269,14 +5266,12 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-
   '@gsap/react@2.1.1':
     dependencies:
       gsap: 3.12.5
       react: 18.3.1
 
-  '@humanwhocodes/config-array@0.11.14':
-
+  '@humanwhocodes/config-array@0.13.0':
     dependencies:
       '@humanwhocodes/object-schema': 2.0.3
       debug: 4.3.7
