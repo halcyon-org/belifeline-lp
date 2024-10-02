@@ -4,12 +4,22 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 export function Loading(): ReactNode {
+  const [isVisible,setIsVisible] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       setFadeOut(true);
     }, 1800); //アニメーションが終わるタイミング
+
+    const hideTimer = setTimeout(() => {
+      setIsVisible(false);
+    }, 2800);
+
+    return () => {
+      clearTimeout(timer);
+      clearTimeout(hideTimer);
+    };
   }, []);
 
   useGSAP(() => {
@@ -109,8 +119,8 @@ export function Loading(): ReactNode {
         },
         {
           strokeDashoffset: 0,
-          repeat: -1,
-          repeatDelay: 1.5,
+          repeat: 0,
+          repeatDelay: 0,
           duration: 1.5,
           ease: "power1.out",
           yoyo: false,
@@ -119,13 +129,13 @@ export function Loading(): ReactNode {
     });
   });
 
-  return (
+  return isVisible ? (
     <div className={`${styles.loading} ${fadeOut ? styles.loadingFadeOut : ""}`}>
       <div className={styles.iconframe}>
         <SvgLogo />
       </div>
     </div>
-  );
+  ) : null;
 }
 
 const SvgLogo = (): ReactNode => {

@@ -2,15 +2,17 @@ import { vars } from "@/styles/theme.css";
 import { style, keyframes } from "@vanilla-extract/css";
 
 export const loading = style({
+  
   width: "1440px",
   height: "1080px",
   display: "flex",
-  background: "rgba(155, 162, 168, 0.15)",
+  background: "rgba(255, 255, 255, 1)",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
   gap: "6.25rem",
   color: vars.color.footerBg,
+  position: "fixed",
 });
 
 export const iconframe = style({
@@ -44,5 +46,5 @@ const fadeOut = keyframes({
 });
 
 export const loadingFadeOut = style({
-  animation: `${fadeOut} 1s ease-out`,
+  animation: `${fadeOut} 0.5s ease-in`,
 });
