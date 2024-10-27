@@ -53,6 +53,7 @@ export const meta: MetaFunction = () => {
     { charSet: "utf-8" },
     { title: "BeLifeline LP" },
     { name: "description", content: "BeLifeline landing page" },
+    { name: "robots", content: "noindex" },
     { name: "og:title", content: "BeLifeline LP" },
     { name: "og:description", content: "BeLifeline landing page" },
     { name: "og:url", content: "https://belifeline-lp.pages.dev" },
