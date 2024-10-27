@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v1.2.0...belifeline-lp-v1.3.0) (2024-10-27)
+
+
+### Features
+
+* **root:** Add a meta tag for noindex ([#230](https://github.com/halcyon-org/belifeline-lp/issues/230)) ([aadd7af](https://github.com/halcyon-org/belifeline-lp/commit/aadd7af7f42a5c0c88ce6c0668a5240e29c0d877))
+
 ## [1.2.0](https://github.com/halcyon-org/belifeline-lp/compare/belifeline-lp-v1.1.0...belifeline-lp-v1.2.0) (2024-07-16)
 
 
