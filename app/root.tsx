@@ -14,8 +14,6 @@ export function Layout({ children }: { children: React.ReactNode }): ReactNode {
   return (
     <html lang="en">
       <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
       </head>
@@ -51,6 +49,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => {
   return [
     { charSet: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
     { title: "BeLifeline LP" },
     { name: "description", content: "BeLifeline landing page" },
     { name: "og:title", content: "BeLifeline LP" },
