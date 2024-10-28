@@ -79,8 +79,8 @@ importers:
         specifier: ^1.16.0
         version: 1.16.0
       '@vanilla-extract/vite-plugin':
-        specifier: ^4.0.16
-        version: 4.0.16(@types/node@22.5.5)(vite@5.4.10(@types/node@22.5.5))
+        specifier: ^4.0.17
+        version: 4.0.17(@types/node@22.5.5)(vite@5.4.10(@types/node@22.5.5))
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.47)
@@ -1527,8 +1527,8 @@ packages:
   '@vanilla-extract/private@1.0.6':
     resolution: {integrity: sha512-ytsG/JLweEjw7DBuZ/0JCN4WAQgM9erfSTdS1NQY778hFQSZ6cfCDEZZ0sgVm4k54uNz6ImKB33AYvSR//fjxw==}
 
-  '@vanilla-extract/vite-plugin@4.0.16':
-    resolution: {integrity: sha512-1yaIwn/2QXHvHfUeEcQ+OWVYvfYCfxIpWfY1y/dcGSMHu/fiFHbLgX75rX6SGnepsaYCTqsdtEiGWJhwxMHouw==}
+  '@vanilla-extract/vite-plugin@4.0.17':
+    resolution: {integrity: sha512-qyAEmBcwih7E3lMrcFZX1Ph81TQos1FFyxOu5JmNmu/F/g7HkcCXFV897pNKFmXgED/TzuyrFVcIRimg5pPc9A==}
     peerDependencies:
       vite: ^4.0.3 || ^5.0.0
 
@@ -6351,7 +6351,7 @@ snapshots:
 
   '@vanilla-extract/private@1.0.6': {}
 
-  '@vanilla-extract/vite-plugin@4.0.16(@types/node@22.5.5)(vite@5.4.10(@types/node@22.5.5))':
+  '@vanilla-extract/vite-plugin@4.0.17(@types/node@22.5.5)(vite@5.4.10(@types/node@22.5.5))':
     dependencies:
       '@vanilla-extract/integration': 7.1.10(@types/node@22.5.5)
       vite: 5.4.10(@types/node@22.5.5)
